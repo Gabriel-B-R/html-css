@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Página principal</h1>
+    <a href="index.html" target="_self" rel="prev" hreflang="pt-br">Página principal</a>
+    
+    <h1>Áudios</h1>
+    <a href="audio.html" target="_self" rel="prev" hreflang="pt-br">Áudio</a>
+
+    <h1>Vídeos</h1>
+    <h2>Vídeos hospedados no próprio servidor</h2>
+    <video src="media/meu-video.webm" type="video/webm" width="600" poster="imagens/The feels.png" controls autoplay></video>
+
+    <video width="600" poster="imagens/The feels.png" controls autoplay>
+        <source src="media/meu-video.webm" type="video/webm">
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/meu-video.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo</p>
+    </video>
+
+    <h2>Vídeos hospedados em outros sites</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f5_wn8mexmM?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

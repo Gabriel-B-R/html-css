@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: bold 1em Arial, Helvetica, sans-serif;
+    background-color: #a1efc3;
+}
+
+/*Cabeçalho principal*/
+
+header#main_header {
+    background-color: darkgreen;
+    color: white;
+    height: auto;
+    width: 100%;
+  
+
+    margin: -21px -8px;
+    padding: 10px 10px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.589);
+
+    background-image: linear-gradient(to bottom, #37c374 5%, #1b5334);
+}
+
+header#main_header > h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+
+    margin: 50px auto 30px auto;
+}
+
+header#main_header > h2 {
+    text-align: center;
+    width: 360px;
+    margin: auto;
+    font: normal 1em Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    margin: 30px 1px -6px -41px;;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+
+    padding: 5px 8px 20px 12px;
+}
+
+/*Corpo*/
+
+main {
+    background-color: white;
+    width: 1400px;
+    height: auto;
+    
+
+    margin: 23px auto 35px auto;
+    padding: 5px 5px;
+    
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.308), -3px 3px 6px rgba(0, 0, 0, 0.308);
+    border-radius: 0px 0px 5px 5px;
+}
+
+article > h1 {
+    font: normal 2em idroid;
+    text-shadow: 1.5px 1.5px 0px green;
+
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #c3ffdd9c, rgba(255, 255, 255, 0.603));
+    font: normal 1.5em idroid;;
+    text-shadow: 1.5px 1.5px 0px green;
+
+    margin-left: 20px;
+    padding: 5px;
+}
+
+article > p {
+    text-align: justify;
+}
+
+/*Imagens*/
+
+article > picture {
+    display: block;
+    text-align: center;
+}
+
+img#bugdroid {
+    display: block;
+    text-align: center;
+}
+
+/*Vídeo*/
+
+section#video {
+    background-color: #1a5c38;
+    display: block;
+    text-align: center;
+
+    margin: 3px -5px;
+}
+
+iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Aside*/
+
+header#aside-header {
+    background-color: #2fa866;
+    color: white;
+    height: 35px;
+    
+    
+    margin: -21px -10px 1px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+header#aside-header > h1 {
+    padding: 5px 10px;
+}
+
+aside {
+    background-color: #a1efc3ab;
+    
+    margin: 20px;
+    padding: 2px 10px;
+    border-radius: 13px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    color: white;
+    background-color: #1a5c38;
+    height: auto;
+
+    margin: -7px -14px -27px -8px;
+}
+
+footer > p {
+    text-align: center;
+    font-weight: normal;
+    padding: 10px 10px;
+} 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Vamos criar um link</h1>
+    <a href="https://www.youtube.com">Acesse o YouTube</a>
+    
+    <h2>Indicar o idioma principal do site</h2>
+    <a href="https://www.w3schools.com/html/" hreflang="en">
+        Site da W3Schools (em inglês)
+    </a>
+
+    <h1>Target</h1>
+    <h2>_self</h2>
+    <p>Abre o link na mesma página</p>
+    <a href="https://www.youtube.com/watch?v=F8sKH83J3fU" target="_self">
+        Vídeo do corno azul na mesma página
+    </a>
+    <h2>_blank</h2>
+    <p>Abre o link em outra página</p>
+    <a href="https://www.youtube.com/watch?v=_kW1yWA5kGU" target="_blank">Outro vídeo o corno em outra página</a>
+
+    <h1>Rel</h1>
+    <p>Indicar qual é a natureza do destino do link</p>
+
+    <h2>next</h2>
+    <p>link para próxima parte do documento atual</p>
+    <a href="pagina2.html" target="_self" rel="next">Página 2</a>
+
+    <h2>prev</h2>
+    <p>Link para página anterior do documento atual</p>
+    <a href="index.html" hreflang="pt-br" target="_self" rel="prev">Página 1</a>
+
+    <h2>author</h2>
+    <p>Indica que é um link para o site do autor do artigo atual</p>
+    <a href="https://www.facebook.com/gabriel.fraretorres" target="_blank" rel="author"> Fexo Games</a>
+
+    <h2>External</h2>
+    <p>Indica que é um link para outro  site que não faz parte do site atual</p>
+    <a href="https://www.youtube.com" target="_blank" rel="External"> Youtube</a>
+
+    <h2>nofollow</h2>
+    <p>Indica que é um link para um site não endossado, como um link pago</p>
+    <a href="https://github.com/gustavoguanabara" target="_blank" rel="nofollow"> nofollow</a>
+
+    <h1>Download</h1>
+    <a href="arquivos/Skiesti_MercyGuide.pdf" download="Skiesti_MercyGuide.pdf" type="application/pdf">Guia da Mercy</a>
+</body>
+</html>

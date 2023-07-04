@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter; 
+    font-size: 3.5em;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font: italic normal 2.5em 'Permanent Marker', cursive;
+    text-decoration: underline;
+    text-align: center;    
+
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-align: justify;
+}
