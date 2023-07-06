@@ -14,15 +14,15 @@
 header {
     background-color: black;
     height: 340px;
+    max-height: 250px;
     position: relative;
 }
 
 header h1 {
-    font: normal bold 7.5em var(--fonte-titulo);
+    font: normal bold 9vw var(--fonte-titulo);
     color: white;
     text-align: center;
     width: 100%;
-    min-width: 850px;
     
     position: absolute;
     top: 50%;
@@ -34,7 +34,12 @@ header h2 {
     font: normal normal 1em Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    padding-top: 243px;
+    padding-top: 50px;
+    
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header a {
