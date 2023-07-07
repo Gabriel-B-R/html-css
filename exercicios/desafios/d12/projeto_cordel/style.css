@@ -23,6 +23,7 @@ header h1 {
     color: white;
     text-align: center;
     width: 100%;
+    font-variant: small-caps;
     
     position: absolute;
     top: 50%;
