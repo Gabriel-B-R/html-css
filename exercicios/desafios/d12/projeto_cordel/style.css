@@ -31,7 +31,7 @@ header h1 {
 }
 
 header h2 {
-    font: normal normal 1em Arial, Helvetica, sans-serif;
+    font: normal normal 1em Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
     padding-top: 50px;
@@ -49,5 +49,71 @@ header a {
 }
 
 header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font: normal normal 3.5vw var(--fonte-texto);
+    padding-left: 5px;
+    line-height: 0.9;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+section.fundo-branco {
+    padding-left: 38px;
+}
+
+section#section2 {
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+section#section2 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 45vw;
+    margin-left: 35px;
+    padding-bottom: 30px;
+}
+
+section#section4 {
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#section4 p {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    width: 45vw;
+    margin-left: 35px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+    position: relative;
+}
+
+footer p {
+    font: normal lighter 1em Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
