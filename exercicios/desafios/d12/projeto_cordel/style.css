@@ -70,7 +70,7 @@ section.fundo-branco {
 section#section2 {
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
-    
+    box-shadow: inset 6px 4px 6px rgba(0, 0, 0, 0.192);
 }
 
 section#section2 p {
@@ -84,6 +84,7 @@ section#section2 p {
 section#section4 {
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 4px 6px rgba(0, 0, 0, 0.192);
 }
 
 section#section4 p {
