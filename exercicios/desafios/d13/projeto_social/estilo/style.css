@@ -3,6 +3,25 @@
     margin: 0px;
 }
 
-main {
+body {
+    background: black url("../imagens/fundo-madeira.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
 
+section img#iphone {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 23%;
+    min-width: 250px;
+}
+
+section ul li img {
+    position: relative;
+    left: 95%;
+    margin: 10px -20px;
+    border-radius: 100%;
+    width: 4%;
+    min-width: 40px;
 }
