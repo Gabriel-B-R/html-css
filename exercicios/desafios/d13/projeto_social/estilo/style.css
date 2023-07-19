@@ -24,7 +24,7 @@ section iframe {
 section ul li img {
     position: relative;
     left: 95%;
-    margin: 10px -20px;
+    margin: 20px -20px -10px 0px;
     border-radius: 100%;
     width: 4%;
     min-width: 40px;
