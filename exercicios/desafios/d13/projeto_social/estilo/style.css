@@ -37,13 +37,21 @@ iframe#tela {
 }
 
 section#sociais {
-    position: absolute;
-    left: 90%;
-    padding-top: 20px; 
+    text-align: right;
+    padding: 20px 10px ;
 }
 
 section ul li img {
     width: 60px;
-    padding-right: -50px;
     border-radius: 100%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section ul li img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-3px, -4px);
+    box-shadow: 5px 5px 10pxrgba(0, 0, 0, 0.616)k;
+    transition: transform .3s;
 }
